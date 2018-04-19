@@ -5,13 +5,12 @@ def line(katz_deli)
    suffix = " empty."
  else
    x=1
-   temp=""
+   suffix = ":"
    while x<=katz_deli.length
-     thing=" #{x}. #{katz_deli[x-1]}"
-     temp<<thing
+     
+     suffix<<" #{x}. #{katz_deli[x-1]}"
      x+=1
    end
-   suffix = ":#{temp}"
  end
  puts "The line is currently"<<suffix
 
