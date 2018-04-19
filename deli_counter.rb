@@ -8,6 +8,7 @@ def line(katz_deli)
    while x<=katz_deli.length
      thing="#{x}. #{katz_deli[x]} "
      temp<<thing
+     x+=1
    end
    suffix = ": #{temp}"
  end
