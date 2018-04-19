@@ -5,6 +5,7 @@ def line(katz_deli)
    suffix = " empty."
  else
    x=1
+   temp=""
    while x<=katz_deli.length
      thing="#{x}. #{katz_deli[x]} "
      temp<<thing
