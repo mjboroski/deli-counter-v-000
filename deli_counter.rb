@@ -4,7 +4,9 @@ def line(katz_deli)
  if katz_deli.length==0
    suffix = " empty."
  else
-   temp = katz_deli.join("#{katz_deli.index} ")
+   x=1
+   while x<=katz_deli.length
+   temp<<"#{x}. "<<"#{katz_deli[x]} "
    suffix = ": #{temp}"
  end
  puts "The line is currently"<<suffix
