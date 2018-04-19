@@ -20,6 +20,6 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(katz_deli)
-  katz_deli==[] ? statement="There is nobody waiting to be served!" : statement="Currently serving #{katz_deli.unshift}"
+  katz_deli==[] ? statement="There is nobody waiting to be served!" : statement="Currently serving #{katz_deli.pop}"
   puts statement
 end
