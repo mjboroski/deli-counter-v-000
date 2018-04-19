@@ -5,7 +5,7 @@ def line(katz_deli)
    puts "The line is currently empty."
  else
    temp = katz_deli.each_with_index{|person, index| "#{index}. #{person}"}
-   puts "The line is currently: "+ temp
+   puts "The line is currently: #{temp}"
  end
 
 end
