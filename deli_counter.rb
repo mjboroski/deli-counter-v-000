@@ -7,7 +7,7 @@ def line(katz_deli)
    x=1
    temp=""
    while x<=katz_deli.length
-     thing="#{x}. #{katz_deli[x]} "
+     thing="#{x}. #{katz_deli[x-1]} "
      temp<<thing
      x+=1
    end
