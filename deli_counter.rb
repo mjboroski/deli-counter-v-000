@@ -7,11 +7,11 @@ def line(katz_deli)
    x=1
    temp=""
    while x<=katz_deli.length
-     thing="#{x}. #{katz_deli[x-1]} "
+     thing=" #{x}. #{katz_deli[x-1]}"
      temp<<thing
      x+=1
    end
-   suffix = ": #{temp}"
+   suffix = ":#{temp}"
  end
  puts "The line is currently"<<suffix
 
