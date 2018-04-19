@@ -7,7 +7,7 @@ def line(katz_deli)
    x=1
    suffix = ":"
    while x<=katz_deli.length
-     
+
      suffix<<" #{x}. #{katz_deli[x-1]}"
      x+=1
    end
