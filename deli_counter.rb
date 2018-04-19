@@ -6,7 +6,7 @@ def line(katz_deli)
  else
    x=1
    while x<=katz_deli.length
-   temp<<"#{x}. "<<"#{katz_deli[x]} "
+   temp<<"#{x}. #{katz_deli[x]} "
    suffix = ": #{temp}"
  end
  puts "The line is currently"<<suffix
