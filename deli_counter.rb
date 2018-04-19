@@ -4,7 +4,7 @@ def line(katz_deli)
  if katz_deli.length==0
    suffix = " empty."
  else
-   temp = katz_deli.each_with_index{|person, index|
+   temp = katz_deli.join.each_with_index{|person, index|
      "#{index+1}. #{person}"}
    suffix = ": #{temp}"
  end
